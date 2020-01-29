@@ -1,1 +1,3 @@
 gcc -Wall -pg test_gprof.c test_gprof_new.c -o test_gprof
+./test_gprof
+gprof gprof_demo gmon.out > analysis.txt
